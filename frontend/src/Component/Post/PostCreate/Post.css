@@ -1,0 +1,100 @@
+.post {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(189, 178, 200);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.post-user-imge {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.post-user-imge img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.post-image-containt p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.post-image-containt p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.post-user-text {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.post-user-text input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+
+.post-buttom {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.post-buttom div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.post-buttom div:hover {
+    background-color: #f0f0f0;
+}
+
+.post-buttom ion-icon {
+    font-size: 24px;
+    color: #555;
+}
+
+/* For responsive design */
+@media (max-width: 600px) {
+    .post {
+        padding: 10px;
+    }
+
+    .post-user-imge img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .post-user-text input {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .post-buttom ion-icon {
+        font-size: 20px;
+    }
+}

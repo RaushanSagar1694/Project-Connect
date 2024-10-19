@@ -1,0 +1,9 @@
+
+
+.right{
+    width: 100%;
+    height: 100vh;
+    background-color: #E4E0E1;
+    padding: 4px;
+    border-left: 2px solid rgb(189, 178, 200);
+}

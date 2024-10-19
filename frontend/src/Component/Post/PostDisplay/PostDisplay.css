@@ -1,0 +1,103 @@
+
+
+.post-display{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(189, 178, 200);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(189, 178, 200);
+    margin: 5px 0px;
+}
+
+.post-display hr{
+    font-size: 2px;
+    width: 98%;
+    padding: 0.1px 0px;
+    color: white;
+    background-color: white;
+}
+
+.post-display-heading{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-display-heading-user-data img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.post-display-heading-user-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-display-heading-user-data-name-email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.post-display-heading-user-data-name-email .username{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0p 4px;
+}
+
+.post-display-heading-user-data-name-email .email{
+    font-size: 14px;
+}
+
+
+.post-display-heading-user-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    margin: 0px 10px;
+}
+
+.post-display-heading-user-option ion-icon {
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
+}
+
+.post-display-center-content{
+    width: 100%;
+    height: auto;
+    padding: 12px 12px;
+    background-color: rgb(189, 178, 200);
+}
+
+.post-display-center-content p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.post-display-center{
+    width: 100%;
+    height: 100%; 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(189, 178, 200);
+}
+
+.post-display-center img{
+    width: auto;
+    height: 420px;
+}
+
+

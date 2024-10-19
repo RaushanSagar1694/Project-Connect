@@ -1,0 +1,12 @@
+
+
+
+.center{
+    width: 810px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    background-color: #E4E0E1;
+    padding: 4px;
+}
